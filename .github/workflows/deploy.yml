@@ -19,12 +19,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm install
       - name: Build website
-        run: yarn build
+        run: npm run build
 
       - name: Zip Release
         uses: TheDoctor0/zip-release@0.6.2
@@ -32,7 +32,7 @@ jobs:
           type: 'zip'
           filename: 'release.zip'
           directory: './build'
-          path: '../dist'
+          path: './dist'
 
       - name: Ping to TM web hosting
         uses: sisodiya2421/pinger@master
