@@ -31,8 +31,8 @@ jobs:
         with:
           type: 'zip'
           filename: 'release.zip'
-          directory: './build'
-          path: '../dist'
+          path: './build'
+          directory: './dist'
 
       - name: Ping to TM web hosting
         uses: sisodiya2421/pinger@master
