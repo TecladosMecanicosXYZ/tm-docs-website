@@ -34,5 +34,12 @@ jobs:
           path: '../build'
           directory: './dist'
 
+      - name: Add release file to repo
+        run: |
+          git config user.name tm-docs-bot
+          git add -A
+          git commit -m "[bot] Update TM Docs release"
+          git push origin main
+
       - name: Ping to TM web hosting
         uses: sisodiya2421/pinger@master
