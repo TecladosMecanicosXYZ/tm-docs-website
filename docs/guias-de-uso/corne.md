@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+tags: [corne, crkbd, split, mx, choc]
+slug: crkbd
 ---
 
 # Corne (Helidox)
