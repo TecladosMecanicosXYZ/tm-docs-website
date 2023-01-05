@@ -29,20 +29,20 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Zip Release
-        uses: TheDoctor0/zip-release@0.6.2
-        with:
-          type: 'zip'
-          filename: 'release.zip'
-          path: '../build'
-          directory: './dist'
+      # - name: Zip Release
+      #   uses: TheDoctor0/zip-release@0.6.2
+      #   with:
+      #     type: 'zip'
+      #     filename: 'release.zip'
+      #     path: '../build'
+      #     directory: './dist'
 
-      - name: Add release file to repo
-        run: |
-          git config user.name tm-docs-bot
-          git add -A
-          git commit -m "[bot] Update TM Docs release"
-          git push origin main
+      # - name: Add release file to repo
+      #   run: |
+      #     git config user.name tm-docs-bot
+      #     git add -A
+      #     git commit -m "[bot] Update TM Docs release"
+      #     git push origin main
 
       - name: Sync files to TM web hosting
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
