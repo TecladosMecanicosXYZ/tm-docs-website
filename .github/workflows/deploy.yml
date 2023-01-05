@@ -25,6 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
       - name: Build website
         run: npm run build
 
@@ -36,17 +37,21 @@ jobs:
           path: '../build'
           directory: './dist'
 
-      - name: Upload Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: "release.zip"
-
       - name: Add release file to repo
         run: |
           git config user.name tm-docs-bot
           git add -A
           git commit -m "[bot] Update TM Docs release"
           git push origin main
+
+      - name: Sync files to TM web hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          server: ${{ secrets.TM_FTP_SERVER }}
+          username: ${{ secrets.TM_FTP_USER }}
+          password: ${{ secrets.TM_FTP_PASS }}
+          local-dir: './build/'
+          server-dir: ${{ secrets.TM_FTP_REMOTE_PATH }}
 
       - name: Ping to TM web hosting
         uses: sisodiya2421/pinger@master
