@@ -31,7 +31,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'release.zip'
-          path: './build'
+          path: '../build'
           directory: './dist'
 
       - name: Ping to TM web hosting
