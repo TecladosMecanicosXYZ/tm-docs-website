@@ -1,0 +1,38 @@
+name: Deploy to TM web hosting
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy to TM web hosting
+    runs-on: ubuntu-latest
+    env:
+      URL: ${{ secrets.TM_WEBHOOK_URL }}
+      METHOD: GET  # the method used to make the request. It is GET by default
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
+
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.6.2
+        with:
+          type: 'zip'
+          filename: 'release.zip'
+          directory: './build'
+          path: '../dist'
+
+      - name: Ping to TM web hosting
+        uses: sisodiya2421/pinger@master
