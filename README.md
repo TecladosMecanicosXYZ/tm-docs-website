@@ -1,41 +1,29 @@
-# Website
+# Teclados Mecánicos - Sitio web de documentación y recursos
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Este sitio web está construido usando [Docusaurus 2](https://docusaurus.io/), un moderno generador de sitios estáticos.
 
-### Installation
+## Instalación
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+npm
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Desarrollo local
 
-### Build
-
-```
-$ yarn build
+```bash
+npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Este comando iniciará un servidor de desarrollo local y abrirá una ventana del navegador. La mayoría de los cambios se verá reflejados en vivo sin necesidad de tener que reiniciar el servidor.
 
-### Deployment
+## Compilación
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+npm run build
 ```
 
-Not using SSH:
+Este comando generará el contenido estático dentro del directorio `build` y podrá ser publicado/servido usando cualquier servicio de hospedaje de contenidos estáticos.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+## Despliegue
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Este proceso será realizado de manera automática por las GitHub Actions configuradas en el repositorio. Solo es necesario enviar (push) y combinar (merge) los nuevos cambios en la rama `main` y el workflow comenzará a compilar y a desplegar el sitio
