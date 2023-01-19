@@ -1,0 +1,10 @@
+{
+  "label": "Recursos",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Recursos útiles para entusiastas y usuarios de teclados mecánicos"
+  }
+}
