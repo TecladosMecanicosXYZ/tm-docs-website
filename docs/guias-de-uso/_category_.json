@@ -1,6 +1,8 @@
 {
   "label": "Guías de Uso",
   "position": 2,
+  "collapsible": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "Aprende a usar tu teclado y a sacar mayor provecho de el"
