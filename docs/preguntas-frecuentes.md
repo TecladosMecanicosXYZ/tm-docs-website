@@ -1,5 +1,5 @@
 ---
-sidebar: 2
+sidebar: 4
 title: Preguntas Frecuentes
 description: Create a doc page with rich content.
 ---
@@ -20,6 +20,7 @@ Para personalizar el keymap de tu teclado, una buena manera es aprender a partir
 
 Aquí puedes encontrar algunos enlaces de interes:
 
+- https://github.com/alvaro-prieto/corne
 - https://github.com/manna-harbour/miryoku
 - https://precondition.github.io/home-row-mods
 - https://github.com/qmk/qmk_firmware/tree/master/keyboards/crkbd/keymaps
