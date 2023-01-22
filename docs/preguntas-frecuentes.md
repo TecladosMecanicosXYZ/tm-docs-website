@@ -16,7 +16,7 @@ Aquí algunas de las posibles causas:
 
 ### ¿Cuál es el mejor keymap para un teclado de 40%?
 
-Para personalizar el keymap de tu teclado, una buena manera es aprender a partir de keymaps existentes.
+Para personalizar el keymap de tu teclado, una buena manera es aprender analizando algunos keymaps existentes.
 
 Aquí puedes encontrar algunos enlaces de interes:
 

@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Te recomendamos probar la herramienta comparativa de teclados divididos diseñada por John Helveston en: [https://jhelvy.shinyapps.io/splitkbcompare/](https://jhelvy.shinyapps.io/splitkbcompare/)
 
-Puedes ver cada diseño al 100% en tu pantalla o tableta. Incluso, puede imprimirlo en papel para una prueba mas "realista".
+Puedes ver cada diseño al 100% en tu pantalla o tableta. Incluso, puedes imprimirlo en papel para una prueba mas "realista".
 
 ### Corne (crkbd)
 :::note Descargar

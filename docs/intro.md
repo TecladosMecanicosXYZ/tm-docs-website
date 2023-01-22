@@ -7,9 +7,9 @@ sidebar_position: 1
 Bienvenid@ al repositorio de documentación de Teclados Mecánicos.
 
 :::info
-Actualmente nos encontramos subiendo todos los contenidos de este sitio, por lo cual agradecemos su compresión y paciencia si aún no encuentras disponible tu guía. Si este es el caso y tienes dudas o preguntas, por favor escribenos a hola@tecladosmecanicos.xyz o contactanos vía [WhatsApp](https://wa.me/573183003939) para ayudarte. 😉
+Actualmente nos encontramos subiendo todos los contenidos de este sitio, por lo cual agradecemos tu compresión y paciencia si aún no encuentras disponible la guía que necesitas. Si este es el caso y tienes dudas o preguntas, por favor escribenos a hola@tecladosmecanicos.xyz o contactanos vía [WhatsApp](https://wa.me/573183003939) para ayudarte. 😉
 :::
 
-Aquí podrás encontrar las __[Guías de uso](/docs/intro)__ de tu teclado en caso de que el mismo haya sido adquirido complemtamente ensamblado.
+Aquí podrás encontrar las __[Guías de uso](/docs/category/guías-de-uso)__ de tu teclado en caso de que el mismo haya sido adquirido complemtamente ensamblado.
 
-También encontrarás una sección llamada __[Guías de Ensamble](/docs/intro)__ en caso de que hayas adquirido el kit de electrónica sin ensamblar y desees consultar las instrucciones para realizar el proceso por tu cuenta.
+También encontrarás una sección llamada __[Guías de Ensamble](/docs/category/guías-de-uso)__ en caso de que hayas adquirido el kit de electrónica sin ensamblar y desees consultar las instrucciones para realizar el proceso por tu cuenta.

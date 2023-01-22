@@ -8,7 +8,7 @@ sidebar_position: 2
 
 Aquí puedes encontrar una lista de PDFs de los keymaps (mapa de teclas) predeterminados de todos nuestros teclados:
 
-Los keymaps o mapas de teclas hace referencia a la posición y configuración de cada tecla. Si quieres saber como viene configurado tu teclado por defecto, este documento te ayudará a descubrirlo.
+Los keymaps o mapas de teclas hacen referencia a la posición y configuración de cada tecla. Si quieres saber como viene configurado tu teclado por defecto, estos documentos te ayudará a descubrirlo.
 
 ### Corne (crkbd)
 :::note Descargar
